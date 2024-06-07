@@ -1,0 +1,159 @@
+/*general css rules*/
+*{
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    
+}
+.playfair-display-sc-black-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 211, 211);
+    gap: 3em;
+  }
+/*--------nav bar -------*/
+
+.topnav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.logo{
+    font-family: Playfair Display SC;
+    font-size: 22px;
+    color: white;
+    flex-grow: 3;
+    flex-shrink: 0;
+    flex-basis: 400px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a{
+    height: 100%;
+    width: 8em;
+    text-align: center;
+    padding: 2em ; 
+    display: block;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: goldenrod;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+/*-------header------*/
+header{
+    background-image:url("file:///D:/codecademy/Company_home_page_flebox/resources/images/store_1.jpg") ;
+    width: 100%;
+    height: 30em;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.us{
+    width: 18em;
+    height: 18em;
+    background-color:   goldenrod;
+    opacity: 0.7;
+    border-radius: 3em;
+    gap: 5em;
+}
+
+.us p{
+    margin: 0 auto; 
+    padding: 3em 1em;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    align-self: center;
+}
+
+
+/* ----- services-----*/
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.product{
+    width:20em ;
+    height:25em;
+    max-height: 25em;
+    
+}
+
+.serv{
+    border: solid black 0.2em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: black;
+    color: goldenrod;
+    text-align: justify;
+}
+
+/*------stafff-----*/
+
+.staff{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.employe{
+    width: 100% ;
+    height:25em;
+    max-height: 25em;
+    align-self: center;
+}
+
+.member{
+    max-width: 20em;
+    border: solid black 0.2em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: black;
+    color: goldenrod;
+    text-align: justify;
+}
+
+footer{
+    background-color: goldenrod;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
